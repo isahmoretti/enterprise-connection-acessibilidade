@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Parques em São Paulo</title>
+</head>
+
+<body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!--Início do menu de acessibilidade-->
+    <nav class="menu_acessibilidade">
+        <ul class="box_menu_acessivel">
+            <li class="menu_item_acessivel"><a href="#conteudo">Ir para conteúdo [1]</a></li>
+            <li class="menu_item_acessivel"><a href="#menu">Ir para menu [2]</li></a>
+            <li class="menu_item_acessivel"><a href="#rodape"> Ir para rodapé [3]</li></a>
+        </ul>
+
+        <ul class="box_menu_acessivel">
+            <p class="texto_menu_acessivel">Zoom:</p>
+            <a href="#">
+                <li><i class="icon_zoom fas fa-search-plus"></i></li>
+            </a>
+            <a href="#">
+                <li><i class="icon_zoom fas fa-search-minus"></i></li>
+            </a>
+        </ul>
+        <ul class="box_menu_acessivel">
+            <p class="texto_menu_acessivel">Contraste:</p>
+            <a href="#">
+                <li class="menu_item_acessivel"><i class=" com_contraste fas fa-circle"></i></li>
+            </a>
+            <a href="#">
+                <li class="menu_item_acessivel"><i class=" sem_contraste far fa-circle"></i></li>
+            </a>
+        </ul>
+        <a class="link_acessivel" href="./acessibilidade.html">Ajuda de acessibilidade</a>
+        <a class="link_acessivel" href="#">Mapa do site</a>
+    </nav>
+    <!--Fim do menu de acessibilidade-->
+
+    <!--Início do cabeçalho principal-->
+    <header class="menu_bg">
+        <div class="menu" id="menu">
+            <div>
+                <a href="#"><img class="menu-logo" src="./images/logo_traveller.svg" alt="Logo do blog Traveller"></a>
+            </div>
+            <div class="menu_section on">
+                <div class="menu_toggle">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+            </div>
+            <nav class="menu_nav">
+                <ul>
+                    <li><a href="#">Como chegar</a></li>
+                    <li><a href="../index.html">Parques</a></li>
+                    <li><a href="#">Onde se hospedar</a></li>
+                    <li><a href="#">Mais</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--Fim do cabeçalho-->
+    <div class="box_capa">
+        <h1 class="titulo_da_pagina">Parques de São Paulo</h1>
+    </div>
+    <article>
+        <!--Início da seção 1-->
+        <section class="box" id="conteudo">
+            <div class="parque_img">
+                <img src="./images/Parque-Buenos-Aires-1.jpeg" alt="Escultura de bronze do Parque Buenos Aires">
+            </div>
+            <div class="parque_info">
+                <h1 class="nome_do_parque">Parque Buenos Aires</h1>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <a class="link_parque" href="#">Excelente (120 avaliações)</a></i>
+                <p class="paragrafo_parque">Avenida Angélica, 1.500 – Higienópolis, São Paulo (Fica a 2,2km da Avenida
+                    Paulista)</p>
+                <p class="paragrafo_parque"><strong>Horário de funcionamento</strong>: das 6h às 19h</p>
+                <a class="link_mapa" href="https://goo.gl/maps/JjDrgrSdqW1hBN7E7" target="_blank">Ver no mapa</a>
+                <h3>Destaques</h3>
+                <ul>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-dog"></i> Bom para passear com cães</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-wheelchair"></i> Entrada com
+                        acessibilidade</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-child"></i> Bom para levar crianças</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-dumbbell"></i> Aparelhos de ginástica
+                    </li>
+                </ul>
+            </div>
+            <div class="parque_descricao">
+                <p class="paragrafo_parque">Com várias estátuas de bronze e árvores centenárias, o parque é uma ótima
+                    opção para quem busca atividades ao ar livre em São Paulo. Um dos seus principais atrativos é a área
+                    cercada para cachorros, que também oferece fontes especiais de água para os animais se refrescarem.
+                </p>
+                <button class="parque_btn"><i class="fas fa-play"></i> Ouvir descrição</button>
+                <button class="parque_btn">Mais informações</button>
+            </div>
+        </section>
+        <!--Fim da seção 1-->
+        <!--Início da seção 2-->
+        <section class="box">
+            <div class="parque_img">
+                <img src="./images/parque-do-ibirapuera-3.jpeg" alt="Lago Artificial no Parque do Ibirapuera">
+            </div>
+            <div class="parque_info">
+                <h1 class="nome_do_parque">Parque Ibirapuera</h1>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <a class="link_parque" href="#">Excelente (3.207 avaliações)</a></i>
+                <p class="paragrafo_parque">Av. Pedro Álvares Cabral - Vila Mariana, São Paulo - SP (Fica a 3,4km da
+                    Avenida Paulista)</p>
+                <p class="paragrafo_parque"><strong>Horário de funcionamento</strong>: das 05h às 0h</p>
+                <a class="link_mapa" href="https://goo.gl/maps/s1CkCUTQU9xevY6j6" target="_blank">Ver no mapa</a>
+                <h3>Destaques</h3>
+                <ul>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-bicycle"></i> Bom para pedalar</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-skating"></i> Bom para andar de patins
+                    </li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-volleyball-ball"></i> Tem quadras</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-wheelchair"></i> Estacionamento com
+                        acessibilidade</li>
+                </ul>
+            </div>
+            <div class="parque_descricao">
+                <p class="paragrafo_parque">Cartão postal de São Paulo, é um dos parques urbanos mais importantes da
+                    cidade. Inaugurado em 1954, o espaço possui quadras iluminadas, ciclovias, pistas de corrida museus,
+                    planetário e lagos artificiais. O parque também é sede do prédio da Bienal.</p>
+                <button class="parque_btn"><i class="fas fa-play"></i> Ouvir descrição</button>
+                <button class="parque_btn">Mais informações</button>
+            </div>
+        </section>
+        <!--Fim da seção 2-->
+        <!--Início da seção 3-->
+        <section class="box">
+            <div class="parque_img">
+                <img src="./images/parque-villa-lobos-sp.jpeg"
+                    alt="Área para andar de skate e bike no Parque Villa Lobos">
+            </div>
+            <div class="parque_info">
+                <h1 class="nome_do_parque"> Parque Villa Lobos</h1>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <a class="link_parque" href="#">Muito bom (1.204 avaliações)</a></i>
+                <p class="paragrafo_parque">Av. Prof. Fonseca Rodrigues, 2001 - Alto de Pinheiros, São Paulo - SP, (Fica
+                    a 9,1km da Avenida Paulista)</p>
+                <p class="paragrafo_parque"><strong>Horário de funcionamento</strong>: das 5h30 às 19h</p>
+                <a class="link_mapa" href="https://goo.gl/maps/WjNAmzgvGu5fnVRW7" target="_blank">Ver no mapa</a>
+                <h3>Destaques</h3>
+                <ul>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-pizza-slice"></i> Gramado para piquenique
+                    </li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-wheelchair"></i> Entrada com
+                        acessibilidade</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-book"></i> Tem biblioteca</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-seedling"></i> Tem Orquidários</li>
+                </ul>
+            </div>
+            <div class="parque_descricao">
+                <p class="paragrafo_parque">Fundado em 1989, o parque ocupa uma área de 732 mil m². Ele é formado por
+                    gramados para lazer, ciclovias, jardins e mais de 35 mil árvores. É um ótimo lugar para andar de
+                    skate ou simplesmente passear com a família.</p>
+                <button class="parque_btn"><i class="fas fa-play"></i> Ouvir descrição</button>
+                <button class="parque_btn">Mais informações</button>
+            </div>
+        </section>
+        <!--Fim da seção 3-->
+        <!--Início da seção 4-->
+        <section class="box">
+            <div class="parque_img">
+                <img src="./images/parque-da-agua-branca.jpeg" alt="Prédio histórico dentro do Parque Água Branca">
+            </div>
+            <div class="parque_info">
+                <h1 class="nome_do_parque">Parque da Água Branca</h1>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <a class="link_parque" href="#"> Muito bom (1670 avaliações)</a></i>
+                <p class="paragrafo_parque">Av. Francisco Matarazzo, 455, Água Branca, São Paulo (Fica a 4,8km da
+                    Avenida Paulista)</p>
+                <p class="paragrafo_parque"><strong>Horário de funcionamento</strong>: das 6h às 18h</p>
+                <a class="link_mapa" href="https://goo.gl/maps/ptYhGPVMRcmH4Q2g6" target="_blank">Ver no mapa</a>
+                <h3>Destaques</h3>
+                <ul>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-paw"></i> Não pode entrar com cães</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-wheelchair"></i> Entrada com
+                        acessibilidade</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-crow"></i> Animais soltos</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-tree"></i> Tem trilha</li>
+                </ul>
+            </div>
+            <div class="parque_descricao">
+                <p class="paragrafo_parque">Situado no bairro da Barra Funda, o Parque da Água Branca possui vários
+                    animais soltos, como galinhas, patos e pavões. Há, ainda um museu de geologia e uma arena
+                    hípica.Toda terça-feira, sábado e domingo, os visitantes podem aproveitar uma feira de orgânicos.
+                </p>
+                <button class="parque_btn"><i class="fas fa-play"></i> Ouvir descrição</button>
+                <button class="parque_btn">Mais informações</button>
+            </div>
+        </section>
+        <!--Fim da seção 4-->
+        <!--Início da seção 5-->
+        <section class="box">
+            <div class="parque_img">
+                <img src="./images/parque-burle-marx.jpeg" alt="'Área arborizada do Parque Burle Marx'">
+            </div>
+            <div class="parque_info">
+                <h1 class="nome_do_parque">Parque Burle Marx</h1>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <a class="link_parque" href="#"> Bom (1450 avaliações)</a></i>
+                <p class="paragrafo_parque">Av. Dona Helena Pereira de Moraes, 200 - Vila Andrade (Fica à 14,9km da
+                    Avenida Paulista)</p>
+                <p class="paragrafo_parque"><strong>Horário de funcionamento</strong>: das 7h às 19h</p>
+                <a class="link_mapa" href="https://goo.gl/maps/jWEQX3jJB3YQLeWn7" target="_blank">Ver no mapa</a>
+                <h3>Destaques</h3>
+                <ul>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-dog"></i> Bom para passear com cães</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-tree"></i> Tem trilhas arborizadas</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-seedling"></i> Possui horta comunitária
+                    </li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-camera-retro"></i> Perfeito para ensaios
+                        fotográficos</li>
+                </ul>
+            </div>
+            <div class="parque_descricao">
+                <p class="paragrafo_parque">Diferente dos outros parques, o Burle Marx não possui pista de corrida, mas
+                    sim trilhas que possibilitam o contato com a natureza. O espaço conta com quadras, espaço para
+                    cachorros e jardins.</p>
+                <button class="parque_btn"><i class="fas fa-play"></i> Ouvir descrição</button>
+                <button class="parque_btn">Mais informações</button>
+            </div>
+        </section>
+        <!--Fim da seção 5-->
+        <!--Início da seção 6-->
+        <section class="box">
+            <div class="parque_img">
+                <img src="./images/parque-da-independencia.jpeg"
+                    alt="Vista de cima dos jardins do Parque da Independência">
+            </div>
+            <div class="parque_info">
+                <h1 class="nome_do_parque">Parque da Independência</h1>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <a class="link_parque" href="#">Excelente (120 avaliações)</a></i>
+                <p class="paragrafo_parque">Av. Nazaré, s/n - Ipiranga, São Paulo, (Fica à 7,6km da Avenida Paulista)
+                </p>
+                <p class="paragrafo_parque"><strong>Horário de funcionamento</strong>: das 6h às 18h</p>
+                <a class="link_mapa" href="https://goo.gl/maps/PjTcs2u6EQdgPZSx8" target="_blank">Ver no mapa</a>
+                <h3>Destaques</h3>
+                <ul>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-skating"></i> Bom para andar de skate
+                    </li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-wheelchair"></i> Entrada com
+                        acessibilidade</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-tint"></i> Tem chafariz com fonte</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-dumbbell"></i> Aparelhos de ginástica
+                    </li>
+                </ul>
+            </div>
+            <div class="parque_descricao">
+                <p class="paragrafo_parque">Parte do patrimônio histórico cultural do Brasil, o parque é composto por
+                    jardins floridos que contornam o Museu do Ipiranga. Tem pista de cooper e uma fonte espetacular.</p>
+                <button class="parque_btn"><i class="fas fa-play"></i> Ouvir descrição</button>
+                <button class="parque_btn">Mais informações</button>
+            </div>
+        </section>
+        <!--Fim da seção 6-->
+        <!--Início da seção 7-->
+        <section class="box">
+            <div class="parque_img">
+                <img src="./images/parque-da-juventude-carandiru.jpeg"
+                    alt="Rapaz andando de skate no Parque da Juventude">
+            </div>
+            <div class="parque_info">
+                <h1 class="nome_do_parque">Parque da Juventude</h1>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <a class="link_parque" href="#">Bom (300 avaliações)</a></i>
+                <p class="paragrafo_parque">Av. Cruzeiro do Sul, 2630 - Carandiru, São Paulo (Fica 7,9km da Avenida
+                    Paulista)</p>
+                <p class="paragrafo_parque"><strong>Horário de funcionamento</strong>: das 6h às 19h</p>
+                <a class="link_mapa" href="https://goo.gl/maps/kgz5RctJWMpCjyMS6" target="_blank">Ver no mapa</a>
+                <h3>Destaques</h3>
+                <ul>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-skating"></i> Bom para andar de skate
+                    </li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-wheelchair"></i> Entrada com
+                        acessibilidade</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-book"></i> Tem biblioteca</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-table-tennis"></i> Tem quadra de tênis
+                    </li>
+                </ul>
+            </div>
+            <div class="parque_descricao">
+                <p class="paragrafo_parque">O espaço, que já abrigou o antigo Complexo do Carandiru, possui uma ampla
+                    área verde, instalações para praticar esportes e área para cães. Algumas referências históricas da
+                    penitenciária foram preservadas</p>
+                <button class="parque_btn"><i class="fas fa-play"></i> Ouvir descrição</button>
+                <button class="parque_btn">Mais informações</button>
+            </div>
+        </section>
+        <!--Fim da seção 7-->
+        <!--Início da seção 8-->
+        <section class="box">
+            <div class="parque_img">
+                <img src="./images/parque-da-aclimacao.jpeg" alt="Homem sentado a beira do lago no Parque da Aclimação">
+            </div>
+            <div class="parque_info">
+                <h1 class="nome_do_parque">Parque da Aclimação</h1>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <a class="link_parque" href="#">Muito bom (1100 avaliações)</a></i>
+                <p class="paragrafo_parque">Rua Muniz de Sousa, 1119 - Aclimação, São Paulo (Fica a 4,6 km da Avenida
+                    Paulista)</p>
+                <p class="paragrafo_parque"><strong>Horário de funcionamento</strong>: das 6h às 20h</p>
+                <a class="link_mapa" href="https://goo.gl/maps/WNgq36BRFtuJWTGW6" target="_blank">Ver no mapa</a>
+                <h3>Destaques</h3>
+                <ul>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-spa"></i> Aulas de yoga</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-wheelchair"></i> Entrada com
+                        acessibilidade</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-child"></i> Bom para levar crianças</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-leaf"></i> Jardim japonês</li>
+                </ul>
+            </div>
+            <div class="parque_descricao">
+                <p class="paragrafo_parque">Com lago amplo, jardim japonês e concha acústica, o parque da Aclimação
+                    encanta os seus visitantes. É um lugar perfeito para fazer piquenique em família ou caminhada.</p>
+                <button class="parque_btn"><i class="fas fa-play"></i> Ouvir descrição</button>
+                <button class="parque_btn">Mais informações</button>
+            </div>
+        </section>
+        <!--Fim da seção 8-->
+        <!--Início da seção 9-->
+        <section class="box">
+            <div class="parque_img">
+                <img src="./images/parque-trianon.jpeg" alt="Caminho entre as árvores no Parque Trianon">
+            </div>
+            <div class="parque_info">
+                <h1 class="nome_do_parque">Parque Trianon</h1>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <a class="link_parque" href="#">Bom (120 avaliações)</a></i>
+                <p class="paragrafo_parque">Rua Peixoto Gomide, 949 - Cerqueira César, São Paulo (Fica a 900 m da
+                    Avenida Paulista)</p>
+                <p class="paragrafo_parque"><strong>Horário de funcionamento</strong>: das 6h às 18h</p>
+                <a class="link_mapa" href="https://goo.gl/maps/WNgq36BRFtuJWTGW6" target="_blank">Ver no mapa</a>
+                <h3>Destaques</h3>
+                <ul>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-dog"></i> Bom para passear com cães</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-wheelchair"></i> Entrada com
+                        acessibilidade</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-child"></i> Bom para levar crianças</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-tree"></i> Tem trilha</li>
+                </ul>
+            </div>
+            <div class="parque_descricao">
+                <p class="paragrafo_parque">Bem pertinho da agitada Avenida Paulista, há um espaço para relaxar e se
+                    conectar com a natureza. O Parque do Trianon existe desde 1892 e preserva parte da vegetação da Mata
+                    Atlântica. Encontre muitas árvores, esculturas e bancos para relaxar.</p>
+                <button class="parque_btn"><i class="fas fa-play"></i> Ouvir descrição</button>
+                <button class="parque_btn">Mais informações</button>
+            </div>
+        </section>
+        <!--Fim da seção 9-->
+        <!--Início da seção 10-->
+        <section class="box">
+            <div class="parque_img">
+                <img src="./images/parque-ecologico-tiete.jpeg"
+                    alt="Homem andando de pedalinho no Parque Ecológico do Tietê">
+            </div>
+            <div class="parque_info">
+                <h1 class="nome_do_parque">Parque Ecológico do Tietê</h1>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <i class=" estrelinha fas fa-star"></i>
+                <a class="link_parque" href="#"> Bom (120 avaliações)</a></i>
+                <p class="paragrafo_parque">Rua Guirá Acangatara, 70 – Engenheiro Goulart – São Paulo (Fica a 23,7km da
+                    Avenida Paulista)</p>
+                <p class="paragrafo_parque"><strong>Horário de funcionamento</strong>: das 8h às 17h</p>
+                <a class="link_mapa" href="https://g.page/parqueecologicotiete?share" target="_blank">Ver no mapa</a>
+                <h3>Destaques</h3>
+                <ul>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-dog"></i> Bom para passear com cães</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-wheelchair"></i> Entrada com
+                        acessibilidade</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-crow"></i> Tem animais silvestres</li>
+                    <li class="paragrafo_parque"><i class=" icon_parque fas fa-water"></i> Tem pedalinho</li>
+                </ul>
+            </div>
+            <div class="parque_descricao">
+                <p class="paragrafo_parque">Localizado na várzea do Rio Tietê, o parque é uma área de preservação
+                    ambiental. Possui museu, centro cultural, quadras poliesportivas, campos de futebol, quiosques e
+                    playground. Além disso, é o habitat de mais de 2 mil animais apreendidos ou doados.</p>
+                <button class="parque_btn"><i class="fas fa-play"></i> Ouvir descrição</button>
+                <button class="parque_btn">Mais informações</button>
+            </div>
+        </section>
+        <!--Fim da seção 10-->
+        <div class="box_links_rapidos">
+            <a class="link_rapido" href="#menu"> Ir para o topo <i class="fas fa-caret-up"></i></a>
+            <a class="link_rapido" href="#"> Voltar para a home <i class="fas fa-caret-left"></i></a>
+        </div>
+    </article>
+    <!--Início do rodapé-->
+    <footer class="footer">
+        <div class="container_footer" id="rodape">
+            <div class="row">
+                <div class="footer-col">
+                    <img src="./images/logo_traveller.svg" alt="Logo do Treveller" class="logo_rodape">
+                    <p class="p_footer">O Treveller é uma plataforma de turismo que oferece conteúdos sobre
+                        acomodações, restaurantes, pontos turísticos e passagens. Aqui, você consegue planejar
+                        melhor a sua viagem, conhecer as experiências de outros viajantes e fazer reservas com os
+                        melhores preços.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Sobre o Traveller</h3>
+                    <ul>
+                        <li><a href="#">Quem somos</a></li>
+                        <li><a href="#">Privacidade</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Anuncie</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Para você</h3>
+                    <ul>
+                        <li><a href="#">Avalie</a></li>
+                        <li><a href="#">Lives</a></li>
+                        <li><a href="#">Podcast</a></li>
+                        <li><a href="#">Na Mídia</a></li>
+                        <li><a href="#">Seja um parceiro</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Siga-nos</h3>
+                    <div class="social-links"></div>
+                    <a href="#"><i class=" item_social fab fa-facebook-f"></i></a>
+                    <a href="#"><i class=" item_social fab fa-instagram"></i></a>
+                    <a href="#"><i class=" item_social fab fa-twitter"></i></a>
+                    <a href="#"><i class=" item_social fab fa-youtube"></i></a>
+                    <a href="#"><i class=" item_social fab fa-spotify"></i></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!--Fim do rodapé-->
+</body>
+
+</html>
